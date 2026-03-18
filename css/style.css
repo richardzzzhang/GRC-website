@@ -1,7 +1,7 @@
 /*
   grc brown — styles
   
-  to change colors? edit the stuff in :root below
+  to change colors - edit the stuff in :root below
   fonts: raleway for headings, inter for body (both from google fonts)
 */
 
@@ -125,7 +125,7 @@ nav {
    with: <img src="images/hero.jpg" alt="grc brown team"/>
 */
 
-.hero { background: #fff; display: grid; grid-template-columns: 1fr 1fr; min-height: 540px; overflow: hidden; }
+.hero { background: #fff; display: grid; grid-template-columns: 1fr 1fr; min-height: 540px; overflow: hidden; max-width: var(--max-width); margin: 0 auto; }
 
 .hero-left { padding: 96px 56px 96px var(--padding); display: flex; flex-direction: column; justify-content: center; }
 .hero-left h1 { font-family: 'Raleway', sans-serif; font-size: 56px; font-weight: 700; color: var(--navy); line-height: 1.04; margin-bottom: 22px; letter-spacing: -0.02em; }
@@ -213,6 +213,7 @@ nav {
 
 .page-hero { background: linear-gradient(135deg, #071540 0%, var(--navy) 60%, #0e3070 100%); padding: 88px 0; position: relative; overflow: hidden; }
 .page-hero-orb { position: absolute; right: -80px; top: -80px; width: 480px; height: 480px; background: radial-gradient(circle, rgba(61, 178, 193, 0.08) 0%, transparent 70%); border-radius: 50%; pointer-events: none; }
+.page-hero .inner { padding-left: var(--padding); padding-right: var(--padding); max-width: none; margin: 0; }
 .page-hero h1 { font-family: 'Raleway', sans-serif; font-size: 50px; font-weight: 700; color: #fff; line-height: 1.06; margin-bottom: 18px; letter-spacing: -0.02em; }
 .page-hero h1 span { color: var(--teal); }
 .page-hero p { font-size: 18px; color: rgba(255, 255, 255, 0.62); max-width: 560px; line-height: 1.65; }
