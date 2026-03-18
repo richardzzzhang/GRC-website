@@ -1,7 +1,7 @@
 /*
   grc brown — styles
   
-  to change colors - edit the stuff in :root below
+  to change colors? edit the stuff in :root below
   fonts: raleway for headings, inter for body (both from google fonts)
 */
 
@@ -125,7 +125,7 @@ nav {
    with: <img src="images/hero.jpg" alt="grc brown team"/>
 */
 
-.hero { background: #fff; display: grid; grid-template-columns: 1fr 1fr; min-height: 540px; overflow: hidden; max-width: var(--max-width); margin: 0 auto; }
+.hero { background: #fff; display: grid; grid-template-columns: 1fr 1fr; min-height: 540px; overflow: hidden; }
 
 .hero-left { padding: 96px 56px 96px var(--padding); display: flex; flex-direction: column; justify-content: center; }
 .hero-left h1 { font-family: 'Raleway', sans-serif; font-size: 56px; font-weight: 700; color: var(--navy); line-height: 1.04; margin-bottom: 22px; letter-spacing: -0.02em; }
